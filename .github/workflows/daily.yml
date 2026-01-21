@@ -1,0 +1,37 @@
+name: Panopticon Daily Update
+
+on:
+  schedule:
+    - cron: "30 12 * * *"  # daily, UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  panopticon:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Run Panopticon
+        run: |
+          python scripts/daily_pubmed_watch.py --days 1 --max 12
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add docs/
+          git commit -m "Panopticon daily update ($(date -u +'%Y-%m-%d'))" || echo "No changes"
+          git push

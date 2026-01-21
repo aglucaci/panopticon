@@ -1,56 +1,63 @@
-# Sentinel
+# Panopticon
 
-**Sentinel** is an automated daily situational-awareness system for
+**Panopticon** is an automated, daily situational-awareness system for
 **viromics, metagenomics, and evolutionary biology**.
 
-It scans the scientific literature every day, extracts newly published
-signals relevant to global virome surveillance, and publishes a clean,
-public-facing summary via GitHub Pages.
+It continuously scans the scientific literature for emerging signals
+relevant to viral evolution, global surveillance, and microbial genomics,
+and publishes a public, reproducible daily brief via GitHub Pages.
 
 ---
 
 ## 🌐 Live Dashboard
-https://<your-username>.github.io/Sentinel/
+
+https://<your-username>.github.io/panopticon/
 
 ---
 
-## 🎯 What Sentinel Does
-- Queries PubMed daily for:
+## 🎯 What Panopticon Does
+
+- Monitors PubMed daily for new publications in:
   - viromes & viral metagenomics
   - wastewater & urban surveillance
   - influenza & H5N1 evolution
   - human & environmental viromes
-  - AMR metagenomics
-- Produces:
-  - `latest.json` — machine-readable
-  - `latest.md` — human-readable
-  - `index.html` — public dashboard
+  - antimicrobial resistance (AMR) metagenomics
+- Generates:
+  - `latest.json` — machine-readable daily signal
+  - `latest.md` — human-readable daily brief
+  - `index.html` — public-facing dashboard
 - Updates automatically via GitHub Actions
 
 ---
 
 ## 🧬 Design Philosophy
-- **Predictive evolutionary mindset**
-- **Reproducible & auditable**
-- **Static > fragile dashboards**
-- **No backend, no servers, no keys**
 
-This repo is intended as scientific infrastructure, not a demo.
+- **Situational awareness over retrospection**
+- **Predictive evolutionary mindset**
+- **Static, auditable outputs**
+- **No backend, no databases, no credentials**
+
+Panopticon is intended as durable scientific infrastructure, not a demo.
 
 ---
 
 ## ⚙️ Automation
-Runs daily using GitHub Actions.  
-All outputs live in `/docs` and are immediately published via GitHub Pages.
+
+Panopticon runs daily using GitHub Actions.  
+All generated outputs are written to `/docs` and are immediately published
+through GitHub Pages.
 
 ---
 
 ## ⚠️ Disclaimer
-For informational and research purposes only.  
-Not medical, public-health, or policy advice.
+
+This project is for informational and research purposes only.  
+It does not constitute medical, public-health, or policy advice.
 
 ---
 
 ## 👤 Author
+
 Alexander G. Lucaci, PhD  
-Computational Evolution • Viromics • Surveillance
+Computational Evolution • Viromics • Genomic Surveillance

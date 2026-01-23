@@ -1,82 +1,91 @@
 {
-  "generated_at_local": "2026-01-22 13:26:22",
-  "generated_at_utc": "2026-01-22 13:26:30",
+  "generated_at_local": "2026-01-23 13:24:06",
+  "generated_at_utc": "2026-01-23 13:24:12",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/01/21",
-    "maxdate": "2026/01/22"
+    "mindate": "2026/01/22",
+    "maxdate": "2026/01/23"
   },
   "sections": [
     {
       "label": "Urban/Wastewater virome",
       "query": "(virome OR \"viral metagenomics\") AND (wastewater OR sewage OR \"built environment\" OR urban)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41563065",
-          "title": "Integrated molecular and metatranscriptomic evidence of Tacaribe virus and the brain virome profile of",
-          "authors": "Larissa Leão F de Sousa, Rodrigo Lopes Sanz Duro, Raquel de Oliveira Vaz, Clara Lacerda de Athayde, Junior Olimpio Martins, Bruna Stefanie Silvério de Lima Slobosk",
-          "journal": "Microbiology spectrum",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41563065/",
-          "abstract_snippet": "Tacaribe virus (TCRV), a New World arenavirus, is associated with neotropical frugivorous bats, particularly"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Metagenomics methods",
       "query": "metagenomics AND (benchmark* OR pipeline OR \"quality control\" OR assembly OR classification)",
-      "count": 4,
+      "count": 3,
       "items": [
         {
-          "pmid": "41563008",
-          "title": "nf-core/proteinfamilies: A scalable pipeline for the generation of protein families.",
-          "authors": "Evangelos Karatzas, Martin Beracochea, Fotis A Baltoumas, Eleni Aplakidou, Lorna Richardson, James A Fellows Yates",
-          "journal": "GigaScience",
+          "pmid": "41574538",
+          "title": "Metagenomic Surveillance of Blood-Fed Mosquitoes for Assessing Zoonotic Risk in Managed Animal Settings.",
+          "authors": "Mukesh Thakur, Stanzin Dolker, Avijit Ghosh, Lenrik K Wangmo, Vinaya K Singh, Mehedi Hasan",
+          "journal": "Vector borne and zoonotic diseases (Larchmont, N.Y.)",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41563008/",
-          "abstract_snippet": "The growth of metagenomics-derived amino acid sequence data has transformed our understanding of protein function, microbial diversity, and evolutionary relationships. However, the vast majority of these proteins remain functionally uncharacterized. Grouping t…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41574538/",
+          "abstract_snippet": "Vector-borne zoonotic diseases remain a major global public health concern, particularly at interfaces where humans, domestic animals, and wildlife interact closely. Conventional surveillance approaches often fail to detect early zoonotic spillover events, esp…"
         },
         {
-          "pmid": "41510663",
-          "title": "Enhancing Iron Nutrition in Citrus: Synergistic Roles of Proline-2'-deoxymugineic Acid in Root Physiology and Microbiome.",
-          "authors": "Kai Gong, Nanqi Wang, Yingying Chen, Jing Yu, Chunfei Kuang, Xiaoyan Xiong",
-          "journal": "Journal of agricultural and food chemistry",
+          "pmid": "41572348",
+          "title": "Beyond borders: plasmids drive a shared antibiotic resistome in European urban water systems.",
+          "authors": "Wanli He, Zhuofeng Yu, Ziqi Wu, Asmus Kalckar Olesen, Jonas Stenløkke Madsen, Arnaud Dechesne",
+          "journal": "Microbiome",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41510663/",
-          "abstract_snippet": "Iron (Fe) deficiency severely impairs plant growth and development in calcareous soils. Proline-2'-deoxymugineic acid (PDMA), a phytosiderophore analog that enhances Fe availability, alleviates Fe deficiency in field and vegetable crops but remains untested in…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41572348/",
+          "abstract_snippet": "Urban wastewater systems (UWSs) act as reservoirs and conduits for the dissemination of antibiotic resistance genes (ARGs), with plasmids playing a central role in their spread. Despite their significance, the diversity and persistence of plasmids in UWSs rema…"
         },
         {
-          "pmid": "41505640",
-          "title": "Strategy Development for Improving Ensiling Performance of Ceratoides arborescens (",
-          "authors": "Shuai Du, Lichao He, Lin Sun, Xuewei Shi, Yanzi Xiao, Yushan Jia",
-          "journal": "Journal of agricultural and food chemistry",
+          "pmid": "41572308",
+          "title": "Bacteriophages in gut metagenomes: from analysis to application.",
+          "authors": "Zakharevich Natalia, Strokach Aleksandra, Shitikov Egor, Klimina Ksenia",
+          "journal": "Virology journal",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41505640/",
-          "abstract_snippet": "This study investigated the effects of"
-        },
-        {
-          "pmid": "41503787",
-          "title": "Genes for Vitamin B Synthesis and Their Distribution in Microbial Producers.",
-          "authors": "Yan Wang, Yitian Yu, Nuohan Xu, Zhenyan Zhang, Bingfeng Chen, Minglong Song",
-          "journal": "Journal of agricultural and food chemistry",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41503787/",
-          "abstract_snippet": "B vitamins (VBs) are essential micronutrients, yet their microbial production across natural habitats remains poorly understood. We analyzed 126,931 metagenome-assembled genomes to map the distribution of VB producers and constructed a database of 87 VB synthe…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41572308/",
+          "abstract_snippet": "Bacteriophages constitute a major component of the human gut virome, playing very important roles in shaping of the structure and function of the gut microbiota. Moreover, bacteriophages interact with the human immune system, thereby influencing various diseas…"
         }
       ]
     },
     {
       "label": "Influenza evolution",
       "query": "(influenza OR flu) AND (evolution OR \"positive selection\" OR \"antigenic drift\" OR clade)",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "pmid": "41569108",
+          "title": "Immune history confers antibody- and T cell-dependent cross-protection against highly pathogenic avian influenza H5N1 viruses.",
+          "authors": "Pamela H Brigleb, Bridgett Sharp, Lauren Lazure, Brandi Livingston, Shelby Patrick, Victoria Meliopoulos",
+          "journal": "Journal of virology",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41569108/",
+          "abstract_snippet": "The outbreak of highly pathogenic avian H5 influenza (HPAI) clade 2.3.4.4b in cattle has spread across the United States. Mice with pre-existing immunity to H1N1 virus or with a live-attenuated influenza vaccine showed protection against a lethal bovine-derive…"
+        }
+      ]
     },
     {
       "label": "H5N1 / avian influenza",
       "query": "H5N1 OR \"highly pathogenic avian influenza\" OR HPAI",
-      "count": 2,
+      "count": 3,
       "items": [
+        {
+          "pmid": "41571900",
+          "title": "Emerging trends and hotspots in Oseltamivir resistance: insights from a bibliometric investigation.",
+          "authors": "Siming Zhai, Yuzhu Dou, Zhengjiu Cui, Bin Yuan",
+          "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41571900/",
+          "abstract_snippet": "Influenza has long been a serious global public health problem, and the risk of drug resistance to Oseltamivir, as a first-line antiviral drug, cannot be ignored. Although some research findings have been published, a systematic review of current research on O…"
+        },
+        {
+          "pmid": "41569108",
+          "title": "Immune history confers antibody- and T cell-dependent cross-protection against highly pathogenic avian influenza H5N1 viruses.",
+          "authors": "Pamela H Brigleb, Bridgett Sharp, Lauren Lazure, Brandi Livingston, Shelby Patrick, Victoria Meliopoulos",
+          "journal": "Journal of virology",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41569108/",
+          "abstract_snippet": "The outbreak of highly pathogenic avian H5 influenza (HPAI) clade 2.3.4.4b in cattle has spread across the United States. Mice with pre-existing immunity to H1N1 virus or with a live-attenuated influenza vaccine showed protection against a lethal bovine-derive…"
+        },
         {
           "pmid": "41565217",
           "title": "Milk as a Transmission Vehicle for Highly Pathogenic Avian Influenza A (H5N1).",
@@ -85,46 +94,38 @@
           "pubdate": "2026",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41565217/",
           "abstract_snippet": "Highly pathogenic avian influenza A (H5N1) (H5N1 hereafter) is an emerging pathogen in mammals. The recent recognition of H5N1 in dairy cattle increases opportunities for human exposure and infection and may accelerate a trajectory toward sustained human-to-hu…"
-        },
-        {
-          "pmid": "41564896",
-          "title": "Detection of Avian Influenza H5-Specific Antibodies by Chemiluminescent Assays.",
-          "authors": "Ana Citlali Márquez, Saina Beitari, Tahereh Valadbeigy, Linda Hoang, Yohannes Berhane, Agatha N Jassem",
-          "journal": "Emerging infectious diseases",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41564896/",
-          "abstract_snippet": "We evaluated 2 electrochemiluminescence serologic assays to detect avian influenza H5 antibodies. Both assays identified H5 antibodies from both serum and dried blood spots and had strong specificity and minimal cross-reactivity in human and avian samples. Suc…"
         }
       ]
     },
     {
       "label": "Human virome",
       "query": "\"human virome\" OR \"gut virome\" OR \"virome atlas\"",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "pmid": "41572308",
+          "title": "Bacteriophages in gut metagenomes: from analysis to application.",
+          "authors": "Zakharevich Natalia, Strokach Aleksandra, Shitikov Egor, Klimina Ksenia",
+          "journal": "Virology journal",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41572308/",
+          "abstract_snippet": "Bacteriophages constitute a major component of the human gut virome, playing very important roles in shaping of the structure and function of the gut microbiota. Moreover, bacteriophages interact with the human immune system, thereby influencing various diseas…"
+        }
+      ]
     },
     {
       "label": "AMR metagenomics",
       "query": "(\"antimicrobial resistance\" OR AMR) AND metagenomics",
-      "count": 2,
+      "count": 1,
       "items": [
         {
-          "pmid": "41566339",
-          "title": "Microbiome and resistome successions in pig carcasses and fresh pork meat throughout slaughtering, processing and shelf-life.",
-          "authors": "Elena Fernández-Trapote, José F Cobo-Díaz, Márcia Oliveira, Alba Puente, Daniel Berdejo, Héctor Puente",
+          "pmid": "41572348",
+          "title": "Beyond borders: plasmids drive a shared antibiotic resistome in European urban water systems.",
+          "authors": "Wanli He, Zhuofeng Yu, Ziqi Wu, Asmus Kalckar Olesen, Jonas Stenløkke Madsen, Arnaud Dechesne",
           "journal": "Microbiome",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41566339/",
-          "abstract_snippet": "Slaughterhouses and meat cutting plants represent potential hotspots for the spread and transfer of spoilage and pathogenic, including antimicrobial resistant, bacteria to meat and meat products. Here, we characterise the progression of the microbiome and resi…"
-        },
-        {
-          "pmid": "41562608",
-          "title": "Survey of bacteria associated with septic arthritis in beef feedlot cattle.",
-          "authors": "Daniel Kos, Brian Warr, Danae M Suchan, Danilo Wadt, Jennifer N Russell, Mallory Norfield",
-          "journal": "Applied and environmental microbiology",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41562608/",
-          "abstract_snippet": "Septic arthritis (SA) is a cause of lameness in cattle attributed to bacterial infections."
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41572348/",
+          "abstract_snippet": "Urban wastewater systems (UWSs) act as reservoirs and conduits for the dissemination of antibiotic resistance genes (ARGs), with plasmids playing a central role in their spread. Despite their significance, the diversity and persistence of plasmids in UWSs rema…"
         }
       ]
     }

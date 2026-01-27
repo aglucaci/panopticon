@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-01-26 13:25:15",
-  "generated_at_utc": "2026-01-26 13:25:21",
+  "generated_at_local": "2026-01-27 13:27:19",
+  "generated_at_utc": "2026-01-27 13:27:24",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/01/25",
-    "maxdate": "2026/01/26"
+    "mindate": "2026/01/26",
+    "maxdate": "2026/01/27"
   },
   "sections": [
     {
@@ -19,13 +19,13 @@
       "count": 1,
       "items": [
         {
-          "pmid": "41581112",
-          "title": "Metagenomic screening of the virome of symptomatic tomato plants from La Réunion Island uncovers a complex of viruses including a newly identified whitefly-transmitted polerovirus.",
-          "authors": "Jean-Michel Lett, Sarah Scussel, Sélim Ben Chéhida, Murielle Hoareau, Denis Filloux, Emmanuel Fernandez",
-          "journal": "Archives of virology",
+          "pmid": "41557799",
+          "title": "Noncanonical genetic markers resolve the pre-GOE emergence of aerobic bacteria in Earth's history.",
+          "authors": "Tianhua Liao, Shanshan Chen, Sishuo Wang, Yongjie Huang, Stephen Kwok Wing Tsui, Eva E Stüeken",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41581112/",
-          "abstract_snippet": "Using unbiased high-throughput sequencing for metagenomic screening of viruses in diseased tomato plants, we identified a viral complex that includes viruses previously reported in tomato crops on La Réunion Island as well as a novel polerovirus, tentatively n…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41557799/",
+          "abstract_snippet": "The transition from anaerobic to aerobic life was a pivotal adaptation in Earth's history, yet the timing and genomic drivers remain poorly resolved. Traditional approaches relying on oxygen-utilizing genes need improvement for obligate anaerobes and fragmenta…"
         }
       ]
     },

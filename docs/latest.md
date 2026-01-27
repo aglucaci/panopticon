@@ -1,6 +1,6 @@
 # Daily PubMed Watch (Viromics / Metagenomics)
 
-**Updated:** 2026-01-26 13:25:15  
+**Updated:** 2026-01-27 13:27:19  
 
 **Window:** last 1 day(s)
 
@@ -10,9 +10,9 @@
 
 ## Metagenomics methods — 1 result(s)
 
-- **[Metagenomic screening of the virome of symptomatic tomato plants from La Réunion Island uncovers a complex of viruses including a newly identified whitefly-transmitted polerovirus.](https://pubmed.ncbi.nlm.nih.gov/41581112/)**  
-  Jean-Michel Lett, Sarah Scussel, Sélim Ben Chéhida, Murielle Hoareau, Denis Filloux, Emmanuel Fernandez · Archives of virology · 2026  
-  _Using unbiased high-throughput sequencing for metagenomic screening of viruses in diseased tomato plants, we identified a viral complex that includes viruses previously reported in tomato crops on La Réunion Island as well as a novel polerovirus, tentatively n…_
+- **[Noncanonical genetic markers resolve the pre-GOE emergence of aerobic bacteria in Earth's history.](https://pubmed.ncbi.nlm.nih.gov/41557799/)**  
+  Tianhua Liao, Shanshan Chen, Sishuo Wang, Yongjie Huang, Stephen Kwok Wing Tsui, Eva E Stüeken · Proceedings of the National Academy of Sciences of the United States of America · 2026  
+  _The transition from anaerobic to aerobic life was a pivotal adaptation in Earth's history, yet the timing and genomic drivers remain poorly resolved. Traditional approaches relying on oxygen-utilizing genes need improvement for obligate anaerobes and fragmenta…_
 
 ## Influenza evolution — 0 result(s)
 

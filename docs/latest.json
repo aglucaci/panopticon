@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-02-06 13:40:41",
-  "generated_at_utc": "2026-02-06 13:40:50",
+  "generated_at_local": "2026-02-07 13:25:06",
+  "generated_at_utc": "2026-02-07 13:25:12",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/02/05",
-    "maxdate": "2026/02/06"
+    "mindate": "2026/02/06",
+    "maxdate": "2026/02/07"
   },
   "sections": [
     {
@@ -16,16 +16,34 @@
     {
       "label": "Metagenomics methods",
       "query": "metagenomics AND (benchmark* OR pipeline OR \"quality control\" OR assembly OR classification)",
-      "count": 3,
+      "count": 4,
       "items": [
         {
-          "pmid": "41642002",
-          "title": "Not all vaginal microbiomes are equal: functional context shapes immune landscapes.",
-          "authors": "Amanda Williams, Amaury Maros, Michael T France, Jacques Ravel, Johanna B Holm",
-          "journal": "mBio",
+          "pmid": "41651877",
+          "title": "Adopting omics-based approaches to facilitate the establishment of microbial consortia to generate reproducible fermented foods with desirable properties.",
+          "authors": "Erkang Zhang, Marcus J Claesson, Paul D Cotter",
+          "journal": "NPJ science of food",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41642002/",
-          "abstract_snippet": "Taxonomic classification alone fails to capture the ecological and functional diversity of vaginal microbiomes, particularly those dominated by"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41651877/",
+          "abstract_snippet": "The quality of fermented foods is governed by the composition, function, and interactions of their microbial communities. However, fermentations carried out using traditional approaches are often variable with respect to their composition and are difficult to …"
+        },
+        {
+          "pmid": "41650276",
+          "title": "Animal-associated jumbo phages as widespread and active modulators of gut microbiome ecology and metabolism.",
+          "authors": "LinXing Chen, Antonio Pedro Camargo, Yiting Qin, Eugene V Koonin, Haoyu Wang, Yuanqiang Zou",
+          "journal": "Science advances",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41650276/",
+          "abstract_snippet": "Huge phages are widespread in the biosphere, yet their prevalence and ecology in the human gut remain poorly characterized. Here, we report Jug (jumbo gut) phages with genomes of 360 to 402 kilobase pairs that comprise ~1.1% of the reads in human gut metagenom…"
+        },
+        {
+          "pmid": "41649278",
+          "title": "Assessment of genome evolution in",
+          "authors": "Emanuele Selleri, Chiara Tarracchini, Silvia Petraro, Leonardo Mancabelli, Christian Milani, Francesca Turroni",
+          "journal": "mSystems",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41649278/",
+          "abstract_snippet": ""
         },
         {
           "pmid": "41637515",
@@ -35,48 +53,30 @@
           "pubdate": "2026",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41637515/",
           "abstract_snippet": "Subsurface karst systems represent substantial but underexplored methane sinks, yet the identities and activities of cave-dwelling methanotrophs remain poorly characterized. We detected increased methane oxidation rates from 2.9 ± 0.1 to 90.7 ± 4.5 ng·g"
-        },
-        {
-          "pmid": "41270896",
-          "title": "Characterization of the gut microbiota in patients with stage III colorectal cancer: A case-control study.",
-          "authors": "Mahamane T Diakité, Shan Sun, Anou M Somboro, Brehima Diakité, Amadou Koné, Yaya Kassogué",
-          "journal": "Gene",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41270896/",
-          "abstract_snippet": "To conduct a case-control study (pilot study) in Africa (Mali) in comparing the gut microbiota of patients with stage III colorectal cancer (CRC) using next-generation sequencing."
         }
       ]
     },
     {
       "label": "Influenza evolution",
       "query": "(influenza OR flu) AND (evolution OR \"positive selection\" OR \"antigenic drift\" OR clade)",
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "pmid": "41652567",
+          "title": "Evolutionary patterns of pH1N1 and H3N2 in relation to vaccine use.",
+          "authors": "Yi-Wen Lin, Li-Zhong Guo, Yun-Ting Tsai, Yi-Chieh Chu, Yu-Fang Lin, Kazuhiro Takemura",
+          "journal": "BMC genomics",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41652567/",
+          "abstract_snippet": "The rapid evolution of viral antigens poses a major challenge to infectious disease control, particularly for pathogens like influenza that undergo frequent antigenic changes. While deep mutational scanning and platforms such as Nextstrain have advanced our un…"
+        }
+      ]
     },
     {
       "label": "H5N1 / avian influenza",
       "query": "H5N1 OR \"highly pathogenic avian influenza\" OR HPAI",
-      "count": 2,
-      "items": [
-        {
-          "pmid": "41644609",
-          "title": "Integrated approaches to explore temporal-spatial changes in gene reassortment of highly pathogenic avian influenza A(H5) virus in Eurasia, 2000-2023.",
-          "authors": "Bo-Jia Chen, Chun-Chen Liang, Yao-Tsun Li, Ting-Wu Chuang, Hong-Dar Isaac Wu, Day-Yu Chao",
-          "journal": "Scientific reports",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41644609/",
-          "abstract_snippet": ""
-        },
-        {
-          "pmid": "41642978",
-          "title": "Detecting Influenza A(H5N1) Viruses through Severe Acute Respiratory Infection Surveillance, Cambodia.",
-          "authors": "William W Davis, Kathrine R Tan, Borann Sar, Alyssa Finlay, Heng Seng, Vicheth Long",
-          "journal": "Emerging infectious diseases",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41642978/",
-          "abstract_snippet": "Of 19 human cases of avian influenza A(H5N1) virus infection detected during January 2023-March 2025 in Cambodia, 12 (63%) were detected directly by surveillance for severe acute respiratory infection (SARI) or indirectly by testing ill close contacts. SARI su…"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Human virome",

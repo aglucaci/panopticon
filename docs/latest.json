@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-02-10 13:59:14",
-  "generated_at_utc": "2026-02-10 13:59:20",
+  "generated_at_local": "2026-02-11 13:54:16",
+  "generated_at_utc": "2026-02-11 13:54:22",
   "days": 1,
   "window_utc": {
-    "mindate": "2026/02/09",
-    "maxdate": "2026/02/10"
+    "mindate": "2026/02/10",
+    "maxdate": "2026/02/11"
   },
   "sections": [
     {
@@ -19,6 +19,24 @@
       "count": 5,
       "items": [
         {
+          "pmid": "41668110",
+          "title": "Genomic analysis of the genetic background underlying Streptococcus pneumoniae beta-lactam nonsusceptibility in central Vietnam: increased beta-lactam nonsusceptibility and dynamics of the pbp2x gene.",
+          "authors": "Hiroshi Fujii, Mitsuhiko Sato, Hien Anh Thi Nguyen, Huong Thi Thu Vu, Satoshi Kakiuchi, Bhim Gopal Dhoubhadel",
+          "journal": "Tropical medicine and health",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41668110/",
+          "abstract_snippet": "We previously reported alarmingly high carriage rates of Streptococcus pneumoniae (SP) serotype 19F and serogroup 6 isolates, which were not susceptible to multiple beta-lactams among children under five years of age in Vietnam. Multilocus sequence typing anal…"
+        },
+        {
+          "pmid": "41667950",
+          "title": "ViralQuest: a user-friendly interactive pipeline for viral-sequences analysis and curation.",
+          "authors": "Gabriel Victor Pina Rodrigues, Lucas Yago Melo Ferreira, Eric Roberto Guimarães Rocha Aguiar",
+          "journal": "BMC bioinformatics",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41667950/",
+          "abstract_snippet": ""
+        },
+        {
           "pmid": "41664846",
           "title": "Molar-Incisor and Generalized Grade C Periodontitis: Distinct Microbiome-Immune Interactions Suggest Divergent Pathogenesis.",
           "authors": "Camila S Stolf, Hélvis E S Paz, Murilo C Paraluppi, Manuela M V Miguel, Mauro P Santamaria, Mabelle F Monteiro",
@@ -28,15 +46,6 @@
           "abstract_snippet": "Molar-Incisor (PerioC-MIP) and Generalized (PerioC-G) Grade C Periodontitis could have distinctive etiopathogenesis behind their unique clinical patterns. Thus, this study aimed to distinguish these two phenotypes by analyzing the subgingival metagenomic profi…"
         },
         {
-          "pmid": "41661278",
-          "title": "A metagenomic study of the gut microbiome in patients with type 2 diabetes mellitus and myocardial infarction.",
-          "authors": "Honghong Zhang, Changlin Zhai, Huilin Hu, Gang Qian, Menghui Mao",
-          "journal": "Acta diabetologica",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41661278/",
-          "abstract_snippet": "This study aimed to investigate gut microbiota composition and metabolic functions in patients with type 2 diabetes mellitus (DM) complicated by myocardial infarction (MI) and to explore potential mechanisms linking the gut microbiome to MI development."
-        },
-        {
           "pmid": "41581292",
           "title": "Shaping soil fungal communities: How swine waste treatment systems and geography drive fungal community shifts.",
           "authors": "Camila Diehl, Gabriela Merker Breyer, Mariana Costa Torres, Camila Rosana Wuaden, Raquel Rebelatto, Janaina Pastore",
@@ -44,15 +53,6 @@
           "pubdate": "2026",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41581292/",
           "abstract_snippet": "The use of swine waste as an organic fertilizer is an important practice in sustainable agriculture. This study aims to evaluate the effects of two common swine waste treatment systems, Covered Lagoon Biodigesters (CLB) and Waste Stabilization Ponds (WSP), on …"
-        },
-        {
-          "pmid": "41552936",
-          "title": "Rutin alleviates dietary advanced glycation end products (AGEs)-induced insulin resistance in mice by modulation of gut microbiota.",
-          "authors": "Yi Lu, Lijun Chang, Shuangbo Liu, Mingfu Wang, Yueliang Zhao",
-          "journal": "Food & function",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41552936/",
-          "abstract_snippet": "Dietary advanced glycation end products (AGEs), formed during thermal food processing, are associated with metabolic disorders. This study investigated the efficacy of rutin in alleviating AGEs-induced insulin resistance (IR) in a mouse model. Male C57BL/6 mic…"
         },
         {
           "pmid": "41238046",
@@ -71,83 +71,38 @@
       "count": 2,
       "items": [
         {
-          "pmid": "41663358",
-          "title": "Vaccination against H5 HP avian influenza virus leads to persistent immune response in wild king penguins.",
-          "authors": "Mathilde Lejeune, Jérémy Tornos, Tristan Bralet, Camille De Pasquale, Elsa Marçon, Pascale Massin",
-          "journal": "Nature communications",
+          "pmid": "41668256",
+          "title": "Longitudinal Surveillance of Influenza A Virus Exposure in Wild Boars (Sus scrofa) in Spain (2015-2023): Serologic and Virologic Evidence of Subtype Infections and H5N1 Spillover Risk.",
+          "authors": "Paloma Encinas, Aitor Nogales, Estela Escribano-Romero, M Ángeles Martín Del Burgo, Jorge Ramón López-Olvera, José Enrique Granados",
+          "journal": "Zoonoses and public health",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41663358/",
-          "abstract_snippet": "Since 2021, the panzootic nature of high pathogenicity avian influenza (HPAI) represents an increasing threat to wild vertebrate populations. In this context, recent vaccines developed for poultry could provide tools for the conservation of wild endangered bir…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41668256/",
+          "abstract_snippet": "Influenza A viruses (IAVs) are responsible for respiratory infections in a wide range of species, including birds, swine and humans. The role of wild boar (Sus scrofa) in IAV epidemiology remains underexplored. Here, we present a longitudinal serologic and vir…"
         },
         {
-          "pmid": "41289498",
-          "title": "Elevated Exposure to Influenza A Viruses in Wild Pigs (Sus scrofa), Texas, USA.",
-          "authors": "Kayleigh Chalkowski, Ryan S Miller, Jeffrey C Chandler, Alessandra Campos, Bailey Arruda, Amy L Baker",
-          "journal": "Journal of wildlife diseases",
+          "pmid": "41666261",
+          "title": "Spatial patterns and environmental influences of COVID-19 outbreaks, post-Omicron.",
+          "authors": "Aleksandra Stamper, Rachel E Baker",
+          "journal": "PloS one",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41289498/",
-          "abstract_snippet": "Detections of highly pathogenic avian influenza viruses in mammals have increased globally, underscoring the need to assess influenza A virus (IAV) exposure in species that bridge wildlife, livestock, and human interfaces. We collected serum from 396 wild pigs…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41666261/",
+          "abstract_snippet": "The seasonality of many respiratory pathogen outbreaks, such as influenza and respiratory syncytial virus, is driven by climate factors, such as specific humidity or temperature. However, it remains unclear whether climate plays a role in determining the seaso…"
         }
       ]
     },
     {
       "label": "H5N1 / avian influenza",
       "query": "H5N1 OR \"highly pathogenic avian influenza\" OR HPAI",
-      "count": 6,
+      "count": 1,
       "items": [
         {
-          "pmid": "41663383",
-          "title": "Assessing HPAI-H5 transmission risk across wild bird migratory flyways in the United States.",
-          "authors": "Kang Fang, Jiahui Li, Hongfeng Zhao, Jiangshaya Bahati, Zeyu Zhao, Wentao Song",
-          "journal": "Nature communications",
+          "pmid": "41668256",
+          "title": "Longitudinal Surveillance of Influenza A Virus Exposure in Wild Boars (Sus scrofa) in Spain (2015-2023): Serologic and Virologic Evidence of Subtype Infections and H5N1 Spillover Risk.",
+          "authors": "Paloma Encinas, Aitor Nogales, Estela Escribano-Romero, M Ángeles Martín Del Burgo, Jorge Ramón López-Olvera, José Enrique Granados",
+          "journal": "Zoonoses and public health",
           "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41663383/",
-          "abstract_snippet": "As natural hosts of avian influenza viruses, wild birds pose an increasing threat to public health. Here, using surveillance data from wild bird infections across the United States (2022-2025), we show that HPAI-H5 transmission exhibits strong interspecific va…"
-        },
-        {
-          "pmid": "41663358",
-          "title": "Vaccination against H5 HP avian influenza virus leads to persistent immune response in wild king penguins.",
-          "authors": "Mathilde Lejeune, Jérémy Tornos, Tristan Bralet, Camille De Pasquale, Elsa Marçon, Pascale Massin",
-          "journal": "Nature communications",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41663358/",
-          "abstract_snippet": "Since 2021, the panzootic nature of high pathogenicity avian influenza (HPAI) represents an increasing threat to wild vertebrate populations. In this context, recent vaccines developed for poultry could provide tools for the conservation of wild endangered bir…"
-        },
-        {
-          "pmid": "41662358",
-          "title": "Impaired host shutoff is a fitness cost associated with baloxavir marboxil resistance mutations in influenza A virus PA/PA-X nuclease domain.",
-          "authors": "Jack R Case, Denys A Khaperskyy",
-          "journal": "PLoS pathogens",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41662358/",
-          "abstract_snippet": "The polymerase acidic (PA) protein is a subunit of the trimeric influenza A virus (IAV) RNA-dependent RNA polymerase and the target of the anti-influenza drug baloxavir marboxil (BXM). As with other direct-acting antivirals, treatment with BXM can lead to sele…"
-        },
-        {
-          "pmid": "41661052",
-          "title": "Syrian hamster is an ideal animal model for evaluating the transmissibility of emerging influenza viruses.",
-          "authors": "Jiongjie Li, Dongxue Wang, Bin Li, Jinming Ma, Xinwen He, Lei Chen",
-          "journal": "Emerging microbes & infections",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41661052/",
-          "abstract_snippet": "Multiple influenza virus subtypes actively circulate in nature, and assessing their transmissibility provides crucial information for predicting their pandemic potential and for pandemic preparedness. Here, we evaluated the receptor-binding preferences, replic…"
-        },
-        {
-          "pmid": "41289498",
-          "title": "Elevated Exposure to Influenza A Viruses in Wild Pigs (Sus scrofa), Texas, USA.",
-          "authors": "Kayleigh Chalkowski, Ryan S Miller, Jeffrey C Chandler, Alessandra Campos, Bailey Arruda, Amy L Baker",
-          "journal": "Journal of wildlife diseases",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41289498/",
-          "abstract_snippet": "Detections of highly pathogenic avian influenza viruses in mammals have increased globally, underscoring the need to assess influenza A virus (IAV) exposure in species that bridge wildlife, livestock, and human interfaces. We collected serum from 396 wild pigs…"
-        },
-        {
-          "pmid": "40758832",
-          "title": "Identification of and Response to Influenza A(H5) in Off-the-Shelf Raw Milk-Santa Clara County, California, November-December 2024.",
-          "authors": "Alessandra Løchen, Brandon Bonin, Rensen Khoshabian, Melanie Diep, Syeda Iqbal, Hailey Chua",
-          "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
-          "pubdate": "2026",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/40758832/",
-          "abstract_snippet": "In November-December 2024, the County of Santa Clara Public Health Department detected influenza A and A(H5) virus in unpasteurized milk sold in the county. A(H5N1) virus surveillance of off-the-shelf unpasteurized milk led to early detection and recall of pot…"
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41668256/",
+          "abstract_snippet": "Influenza A viruses (IAVs) are responsible for respiratory infections in a wide range of species, including birds, swine and humans. The role of wild boar (Sus scrofa) in IAV epidemiology remains underexplored. Here, we present a longitudinal serologic and vir…"
         }
       ]
     },
@@ -160,8 +115,27 @@
     {
       "label": "AMR metagenomics",
       "query": "(\"antimicrobial resistance\" OR AMR) AND metagenomics",
-      "count": 0,
-      "items": []
+      "count": 2,
+      "items": [
+        {
+          "pmid": "41668418",
+          "title": "Recent microbial evolutionary insights from metagenomics.",
+          "authors": "Bárbara Moguel, Laura Carrillo Olivas, Mariana G Guerrero-Osornio, Sur Herrera Paredes",
+          "journal": "Genome biology and evolution",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41668418/",
+          "abstract_snippet": "Microorganisms have profoundly shaped Earth's biological and geological history, from the origins of oxygenic photosynthesis to present-day global biogeochemical cycles. Metagenomics -through its ability to recover genomic information directly from environment…"
+        },
+        {
+          "pmid": "41668110",
+          "title": "Genomic analysis of the genetic background underlying Streptococcus pneumoniae beta-lactam nonsusceptibility in central Vietnam: increased beta-lactam nonsusceptibility and dynamics of the pbp2x gene.",
+          "authors": "Hiroshi Fujii, Mitsuhiko Sato, Hien Anh Thi Nguyen, Huong Thi Thu Vu, Satoshi Kakiuchi, Bhim Gopal Dhoubhadel",
+          "journal": "Tropical medicine and health",
+          "pubdate": "2026",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41668110/",
+          "abstract_snippet": "We previously reported alarmingly high carriage rates of Streptococcus pneumoniae (SP) serotype 19F and serogroup 6 isolates, which were not susceptible to multiple beta-lactams among children under five years of age in Vietnam. Multilocus sequence typing anal…"
+        }
+      ]
     }
   ]
 }

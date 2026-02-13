@@ -1,11 +1,15 @@
 # Daily PubMed Watch (evo • virome • metagenomics)
 
-**Updated:** 2026-02-13 15:08:47  
+**Updated:** 2026-02-13 15:42:38  
 **Window:** last 1 day(s)  
 **Ranking:** Score (theme priority + keyword signals + venue + recency)
 
 
 ## Selection & codon models — 0 result(s)
+
+_No new items in this window._
+
+## Cancer evolution & somatic selection — 0 result(s)
 
 _No new items in this window._
 
@@ -59,11 +63,11 @@ _No new items in this window._
   _The pronounced heterogeneity of the tumor microenvironment (TME) in colorectal cancer (CRC) presents major obstacles in accurately predicting patient outcomes and tailoring treatment responses. Deciphering this intricate microenvironment based on histological …_
 - **[Evolution from Analyte to Sensitive Signal Probe: Norfloxacin-Based Assembly for Machine-Learning-Assisted Discrimination of Phosphates and Monitoring of ATP Hydrolysis.](https://pubmed.ncbi.nlm.nih.gov/41685526/)**  
   Ying Liu, Guoxing Zhang, Ou Zhang, Ning Liu, Hao Zhang · Analytical chemistry · 2026-02-13  
-  _PI score:_ `2.495`  
+  _PI score:_ `2.494`  
   _The development of sensor arrays for effective discrimination of structurally similar physiological phosphates (PPs) in mixtures presents a considerable challenge. We propose a new strategy based on concentration-regulated supramolecular assembly to construct …_
 - **[(no title)](https://pubmed.ncbi.nlm.nih.gov/41684256/)**  
   Gabriela Guerrera Soares, Maria Carolina Francalassi Sarcinelli, Marcelo Silva Folhas Damas, Natália Ribeiro Crispim, Andrea Soares da Costa Fuentes, Maria-Cristina da Silva Pranchevicius · Future microbiology · 2026-02-13  
-  _PI score:_ `2.495`  
+  _PI score:_ `2.494`  
 - **[Inference of SARS-CoV-2 exposure biomarkers using large-scale T-cell repertoire profiling.](https://pubmed.ncbi.nlm.nih.gov/41680899/)**  
   Elizaveta K Vlasova, Alexandra I Nekrasova, Alexander Y Komkov, Mark Izraelson, Ekaterina A Snigir, Sergey I Mitrofanov · Genome medicine · 2026-02-12  
   _PI score:_ `2.486`  

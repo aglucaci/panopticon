@@ -1,4 +1,4 @@
-# LitScope
+# LitScan
 
 This repository is an automated, daily situational-awareness system for
 **viromics, metagenomics, and evolutionary biology**.
@@ -11,7 +11,7 @@ and publishes a public, reproducible daily brief via GitHub Pages.
 
 ## 🌐 Live Dashboard
 
-https://aglucaci.github.io/litscope/
+https://aglucaci.github.io/litscan/
 
 ---
 

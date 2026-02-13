@@ -14,6 +14,11 @@ that:
 
 ------------------------------------------------------------------------
 
+## Live Dashboard
+
+https://aglucaci.github.io/litscan/
+
+------------------------------------------------------------------------
 ## Conceptual Framework
 
 LitScan is built around a core idea:

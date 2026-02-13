@@ -37,9 +37,9 @@ jobs:
       # - script at repo root: daily_pubmed_watch_v2.py
       # - output site in docs/
       # - logo in logos/litscan_logo.png (used by HTML)
-      LITSCAN_SCRIPT: daily_pubmed_watch_v2.py
+      LITSCAN_SCRIPT: scripts/daily_pubmed_watch_v2.py
       LITSCAN_SITE_DIR: docs
-      LITSCAN_LOGO_PATH: logos/litscan_logo.png
+      LITSCAN_LOGO_PATH: https://raw.githubusercontent.com/aglucaci/litscan/refs/heads/main/logo/liscan_logo.png
 
       # Defaults (can be overridden below by mode)
       DAYS: "1"

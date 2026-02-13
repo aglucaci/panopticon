@@ -573,7 +573,7 @@ def write_outputs(outdir_docs: str, payload: Dict[str, Any]) -> None:
     html_body.append("<div class='grid'>")
     html_body.append("<div class='stat'><div class='k'>Downloads</div><div class='v'>Artifacts</div>"
                      "<div class='s'><a href='latest.json'>latest.json</a> · <a href='latest.md'>latest.md</a></div></div>")
-    html_body.append("<div class='stat'><div class='k'>Ranking</div><div class='v'>PI score</div>"
+    html_body.append("<div class='stat'><div class='k'>Ranking</div><div class='v'>Relevance score</div>"
                      "<div class='s'>Theme priority + keyword signals + venue boost + recency decay</div></div>")
     html_body.append("<div class='stat'><div class='k'>Scope</div><div class='v'>PubMed</div>"
                      "<div class='s'>Fetched via NCBI E-utilities; sorted by PubDate then re-ranked per theme</div></div>")

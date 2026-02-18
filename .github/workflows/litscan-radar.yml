@@ -6,7 +6,7 @@ on:
       mode:
         description: "Run mode: daily or weekly"
         required: true
-        default: "daily"
+        default: "weekly"
         type: choice
         options:
           - daily

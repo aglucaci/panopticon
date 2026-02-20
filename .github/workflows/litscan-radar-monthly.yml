@@ -1,0 +1,79 @@
+name: LitScan Radar
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily run: ~9am ET (13:00 UTC standard)
+    - cron: "0 13 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: litscan-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  litscan:
+    runs-on: ubuntu-latest
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      LITSCAN_SCRIPT: scripts/daily_pubmed_watch_v2.py
+      LITSCAN_SITE_DIR: docs
+
+      # 🔥 Daily rolling window
+      DAYS: "30"
+      MAX_RESULTS: "25"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Validate required files exist
+        run: |
+          set -euo pipefail
+          test -f "${LITSCAN_SCRIPT}" || (echo "Missing ${LITSCAN_SCRIPT}" && exit 1)
+          test -d "${LITSCAN_SITE_DIR}" || (echo "Missing ${LITSCAN_SITE_DIR}/ directory" && exit 1)
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run LitScan (daily 30-day lookback)
+        run: |
+          set -euo pipefail
+          echo "Running daily LitScan DAYS=${DAYS} MAX=${MAX_RESULTS}"
+          python "${LITSCAN_SCRIPT}" --days "${DAYS}" --max "${MAX_RESULTS}"
+
+      - name: Sanity check output
+        run: |
+          set -euo pipefail
+          test -f "${LITSCAN_SITE_DIR}/index.html" || (echo "Missing ${LITSCAN_SITE_DIR}/index.html after run" && exit 1)
+
+      - name: Commit changes (only if changed)
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          git add "${LITSCAN_SITE_DIR}/"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          MSG="LitScan daily update $(date -u +'%Y-%m-%d')"
+          git commit -m "$MSG"
+          git push

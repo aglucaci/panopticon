@@ -18,6 +18,8 @@ that:
 
 https://aglucaci.github.io/litscan/
 
+[![LitScan Radar](https://github.com/aglucaci/litscan/actions/workflows/litscan-radar-monthly.yml/badge.svg)](https://github.com/aglucaci/litscan/actions/workflows/litscan-radar-monthly.yml)
+
 ------------------------------------------------------------------------
 ## Conceptual Framework
 

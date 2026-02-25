@@ -23,7 +23,7 @@ jobs:
       LITSCAN_SITE_DIR: docs
 
       # 🔥 Daily rolling window
-      DAYS: "30"
+      DAYS: "14"
       MAX_RESULTS: "25"
 
     steps:

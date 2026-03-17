@@ -1,10 +1,10 @@
 {
-  "generated_at_local": "2026-03-16 14:13:18",
-  "generated_at_utc": "2026-03-16 14:13:30",
+  "generated_at_local": "2026-03-17 14:11:37",
+  "generated_at_utc": "2026-03-17 14:11:48",
   "days": 14,
   "window_utc": {
-    "mindate": "2026/03/02",
-    "maxdate": "2026/03/16"
+    "mindate": "2026/03/03",
+    "maxdate": "2026/03/17"
   },
   "ranking": "pi_score(theme_priority + keyword_signals + venue + recency)",
   "themes": {
@@ -43,20 +43,8 @@
     {
       "label": "Selection & codon models",
       "query": "(((\"dN/dS\" OR \"codon model\" OR HyPhy OR FEL OR MEME OR FUBAR OR BUSTED OR \"branch-site\") AND (selection OR evolution OR adaptive OR constraint)) OR ((\"episodic selection\" OR \"positive selection\" OR \"diversifying selection\") AND (virus OR pathogen))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 3,
+      "count": 2,
       "items": [
-        {
-          "pmid": "41693166",
-          "title": "Predictors of Protein Evolution in the drosophilid Immune System.",
-          "authors": "Pankaj Dhakad, Darren J Obbard",
-          "journal": "Genome biology and evolution",
-          "pubdate": "2026-03-02",
-          "pubdate_utc": "2026-03-02T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41693166/",
-          "abstract_snippet": "The evolutionary dynamics of immune genes are shaped by diverse selective pressures, yet the relative roles of gene-level traits, functional specialization, and pathway context remain poorly understood. Here, we applied a meta-analytic mixed model approach to …",
-          "score": 11.329,
-          "theme": "Selection & codon models"
-        },
         {
           "pmid": "41820676",
           "title": "Insect cypoviruses: advances in structural characterization, evolutionary genomics, and host interaction dynamics.",
@@ -66,7 +54,7 @@
           "pubdate_utc": "2026-03-12T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41820676/",
           "abstract_snippet": "Cypoviruses are insect-specific, double-stranded RNA viruses belonging to the genus Cypovirus within the family Spinareoviridae. Cypoviruses primarily infect insects of the orders Lepidoptera, Diptera, and Hymenoptera. These viruses replicate in midgut epithel…",
-          "score": 5.811,
+          "score": 5.802,
           "theme": "Selection & codon models"
         },
         {
@@ -78,7 +66,7 @@
           "pubdate_utc": "2026-03-04T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41779819/",
           "abstract_snippet": "Bacillus thuringiensis (Bt) is a highly effective insect pathogen, largely due to the expression of diverse insecticidal proteins upon sporulation. Among them, the three-domain Cry protein family represent the largest family, targeting a wide range of insect s…",
-          "score": 5.745,
+          "score": 5.737,
           "theme": "Selection & codon models"
         }
       ]
@@ -86,26 +74,13 @@
     {
       "label": "Cancer evolution & somatic selection",
       "query": "(((\"cancer evolution\" OR \"tumor evolution\" OR \"somatic evolution\" OR \"clonal evolution\") AND (genomics OR sequencing OR phylogen* OR \"single-cell\")) OR ((cancer OR tumor OR lymphoma OR leukemia) AND (\"positive selection\" OR \"clonal selection\" OR \"driver mutation\" OR \"dN/dS\" OR \"selection inference\")) OR ((\"mutational signature\" OR \"mutational signatures\") AND (cancer OR tumor) AND (evolution OR selection OR phylogeny))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
-      "items": [
-        {
-          "pmid": "41714147",
-          "title": "Gene duplication is associated with gene diversification and potential neofunctionalization in lung cancer evolution.",
-          "authors": "Paul Ashford, Alexander M Frankell, Zofia Piszka, Camilla S M Pang, Mahnaz Abbasian, Maise Al Bakir",
-          "journal": "Genome research",
-          "pubdate": "2026-03-02",
-          "pubdate_utc": "2026-03-02T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41714147/",
-          "abstract_snippet": "Tumors evolve through a process of selection on somatic mutations, driving cell division and tissue growth through aberrations in cell-cycle control. In non-small-cell lung cancer (NSCLC), genome instability occurs early in tumor growth, resulting in pronounce…",
-          "score": 3.779,
-          "theme": "Cancer evolution & somatic selection"
-        }
-      ]
+      "count": 0,
+      "items": []
     },
     {
       "label": "Recombination & mosaicism",
       "query": "(((recombination OR \"mosaic genome\" OR breakpoint OR \"gene conversion\") AND (virus OR virome OR pathogen)) OR ((RDP OR GARD OR \"recombination detection\") AND (sequence OR alignment))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 7,
+      "count": 8,
       "items": [
         {
           "pmid": "41821123",
@@ -116,7 +91,7 @@
           "pubdate_utc": "2026-03-12T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41821123/",
           "abstract_snippet": "Streptococcus mutans is a member of the human oral microbiota and is considered one of the most important cariogenic organisms. Previous studies have suggested an expansion of S. mutans populations about 10,000 years ago with the onset of agriculture, yet dire…",
-          "score": 7.061,
+          "score": 7.052,
           "theme": "Recombination & mosaicism"
         },
         {
@@ -128,7 +103,7 @@
           "pubdate_utc": "2026-03-10T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41819296/",
           "abstract_snippet": "Prokaryotic Argonaute (pAgo) proteins constitute an evolutionarily ancient nuclease family that is rapidly maturing into a versatile molecular toolkit rivaling CRISPR-Cas. This review synthesizes recent advances in pAgo biology and biotechnology, tracing their…",
-          "score": 5.444,
+          "score": 5.436,
           "theme": "Recombination & mosaicism"
         },
         {
@@ -140,7 +115,7 @@
           "pubdate_utc": "2026-03-11T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41811945/",
           "abstract_snippet": "Methicillin-resistant",
-          "score": 2.652,
+          "score": 2.644,
           "theme": "Recombination & mosaicism"
         },
         {
@@ -152,7 +127,19 @@
           "pubdate_utc": "2026-03-06T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41729089/",
           "abstract_snippet": "",
-          "score": 2.611,
+          "score": 2.603,
+          "theme": "Recombination & mosaicism"
+        },
+        {
+          "pmid": "41786259",
+          "title": "Identification and Antimicrobial Characterization of Galectin-2 in Miichthysmiiuy.",
+          "authors": "Siqi Shan, Wenxin Li, Ziyue Pan, Tianjun Xu, Yuena Sun",
+          "journal": "Developmental and comparative immunology",
+          "pubdate": "2026-03-03",
+          "pubdate_utc": "2026-03-03T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41786259/",
+          "abstract_snippet": "Galectin-2, a member of the galectin family, functions as an immunoregulatory molecule and plays significant roles in inflammatory responses, apoptosis, and the maintenance of immune homeostasis. In this study, we identified and characterized a galectin from a…",
+          "score": 2.579,
           "theme": "Recombination & mosaicism"
         },
         {
@@ -164,7 +151,7 @@
           "pubdate_utc": "2026-02-09T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41660847/",
           "abstract_snippet": "Most human pathogens, while originating from animals, have crossed species barriers to infect humans, often leading to outbreaks of new infectious diseases. Despite significant efforts, the mechanisms, timing, and locations of these emerging diseases remain la…",
-          "score": 2.421,
+          "score": 2.414,
           "theme": "Recombination & mosaicism"
         },
         {
@@ -176,7 +163,7 @@
           "pubdate_utc": "2026-02-03T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41631845/",
           "abstract_snippet": "Due to the lack of studies focusing on ocular pneumococcus other than in the United States, little is known about the molecular epidemiology of",
-          "score": 2.38,
+          "score": 2.373,
           "theme": "Recombination & mosaicism"
         },
         {
@@ -188,7 +175,7 @@
           "pubdate_utc": "2026-01-21T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41562598/",
           "abstract_snippet": "This study aims to elucidate the genomic characteristics of three The emergence of",
-          "score": 2.294,
+          "score": 2.288,
           "theme": "Recombination & mosaicism"
         }
       ]
@@ -199,6 +186,18 @@
       "count": 5,
       "items": [
         {
+          "pmid": "41838776",
+          "title": "Fast hospital discharge rates blur within-hospital 'transmission footprint' in bacterial genomes, as showcased with Staphylococcus aureus.",
+          "authors": "Sanni Översti, Mathilde Boumasmoud, Huldyrch F Günthard, Hugo Sax, Annelies S Zinkernagel, Roger D Kouyos",
+          "journal": "PLoS computational biology",
+          "pubdate": "2026-03-16",
+          "pubdate_utc": "2026-03-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41838776/",
+          "abstract_snippet": "The relatively slow mutation rates of bacterial pathogens impose severe limitations on phylodynamic analysis of bacterial outbreaks. However, whole-genome sequencing may enable accurate inference of bacterial transmission dynamics in health-care settings. We s…",
+          "score": 5.486,
+          "theme": "Phylodynamics & transmission"
+        },
+        {
           "pmid": "41817188",
           "title": "Mapping the geodispersal and evolutionary dynamics of regional Nipah virus strain in Bangladesh.",
           "authors": "Md Mahfuzur Rahman, Shahreen Rahman, Samiur Rahim, Mohammad Enayet Hossain, Syed Moinuddin Satter, John D Klena",
@@ -207,7 +206,7 @@
           "pubdate_utc": "2026-03-12T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41817188/",
           "abstract_snippet": "Nipah virus (NiV) is a zoonotic pathogen causing severe respiratory and neurological disease in humans, with high fatality rates, primarily transmitted from fruit bats to humans through bat-tainted raw date palm sap and fruits. NiV outbreaks have occurred almo…",
-          "score": 5.461,
+          "score": 5.452,
           "theme": "Phylodynamics & transmission"
         },
         {
@@ -219,19 +218,7 @@
           "pubdate_utc": "2026-03-10T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41807290/",
           "abstract_snippet": "HIV-1 CRF01_AE exhibits multiple distinct sub-subtypes (01_C1-C8) with different transmission dynamics across China. Understanding their geographical distribution, transmission patterns, and key affected populations is critical for optimizing targeted interven…",
-          "score": 5.444,
-          "theme": "Phylodynamics & transmission"
-        },
-        {
-          "pmid": "41770598",
-          "title": "Global evolutionary landscape of H11 avian influenza and initial isolates identified in Xinjiang, China.",
-          "authors": "Yitao Li, Qian Yu, Qinghong Jiang, Yan Zhang, Jingjing Yu, Wenjing Wang",
-          "journal": "Emerging microbes & infections",
-          "pubdate": "2026-03-02",
-          "pubdate_utc": "2026-03-02T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41770598/",
-          "abstract_snippet": "H11 avian influenza viruses (AIVs) circulate globally among wild bird populations, yet their evolutionary pathways and risks for zoonotic transmission remain insufficiently characterized. In the current study, analysis of 1,179 H11 hemagglutinin (HA) sequences…",
-          "score": 5.079,
+          "score": 5.436,
           "theme": "Phylodynamics & transmission"
         },
         {
@@ -243,7 +230,7 @@
           "pubdate_utc": "2026-03-10T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41575511/",
           "abstract_snippet": "Mpox is an infectious disease caused by the Monkeypox virus, which is divided into two main genetic clades: Clade I and Clade II. A large-scale outbreak linked to Clade IIb emerged in 2022 and rapidly spread to more than 100 countries worldwide. Here, we descr…",
-          "score": 2.644,
+          "score": 2.636,
           "theme": "Phylodynamics & transmission"
         },
         {
@@ -255,7 +242,7 @@
           "pubdate_utc": "2026-01-23T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41575210/",
           "abstract_snippet": "Genomic sequencing of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been widely instituted during the coronavirus disease 2019 (COVID-19) pandemic to track the emergence and spread of new lineages. While this powerful tool can influence publ…",
-          "score": 2.307,
+          "score": 2.301,
           "theme": "Phylodynamics & transmission"
         }
       ]
@@ -274,7 +261,7 @@
           "pubdate_utc": "2026-01-21T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41563065/",
           "abstract_snippet": "Tacaribe virus (TCRV), a New World arenavirus, is associated with neotropical frugivorous bats, particularly Understanding which animals carry viruses is key to predicting and preventing disease spread. Here, we report the first detection of Tacaribe virus (TC…",
-          "score": 4.894,
+          "score": 4.888,
           "theme": "Urban / built environment virome"
         }
       ]
@@ -282,7 +269,7 @@
     {
       "label": "Wastewater / WBE viral surveillance",
       "query": "(((\"wastewater surveillance\" OR WBE OR sewage) AND (virus OR virome OR pathogen OR SARS-CoV-2)) OR ((wastewater OR sewage) AND (\"viral metagenomics\" OR viromics) AND (variant OR lineage OR evolution))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 1,
+      "count": 2,
       "items": [
         {
           "pmid": "41801524",
@@ -293,7 +280,19 @@
           "pubdate_utc": "2026-03-09T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41801524/",
           "abstract_snippet": "Marine pollution caused by plastic waste is a global issue. Improperly discarded plastics often end up in seas and oceans, where they become colonized by a microbial biofilm known as the Plastisphere. In this environment, especially in places where sewage is d…",
-          "score": 4.886,
+          "score": 4.877,
+          "theme": "Wastewater / WBE viral surveillance"
+        },
+        {
+          "pmid": "41837626",
+          "title": "Comparative genomic analyses of",
+          "authors": "Nam-Hoon Kim, Jung Hun Lee, Saba Yasmin, Abdul Rauf Tareen, Kyung-Min Jang, Chanyeong Jeong",
+          "journal": "mSystems",
+          "pubdate": "2026-03-16",
+          "pubdate_utc": "2026-03-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41837626/",
+          "abstract_snippet": "This study provides a comprehensive genomic landscape of ST405, a high-risk international clone and a carrier of the",
+          "score": 2.736,
           "theme": "Wastewater / WBE viral surveillance"
         }
       ]
@@ -312,7 +311,7 @@
           "pubdate_utc": "2026-01-26T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41586497/",
           "abstract_snippet": "",
-          "score": 2.276,
+          "score": 2.27,
           "theme": "Pandemic preparedness & biosurveillance"
         }
       ]
@@ -320,20 +319,8 @@
     {
       "label": "Atlases, compendia, reference resources",
       "query": "(((atlas OR database OR compendium OR \"reference catalog\" OR resource) AND (virome OR microbiome OR pathogen)) OR ((\"large-scale\" OR global) AND (virome OR microbiome) AND (metadata OR harmonization))) AND (\"computational evolutionary biology\" OR \"molecular evolution\" OR phylogenomics OR phylodynamics OR HyPhy OR \"codon model\") NOT (case report OR randomized OR psychology)",
-      "count": 13,
+      "count": 12,
       "items": [
-        {
-          "pmid": "41775076",
-          "title": "Therapeutic potential of three virulent bacteriophages targeting clinical Enterobacter hormaechei strains: comprehensive biological properties and genomic functional analysis.",
-          "authors": "Michał Wójcicki, Martyna Cieślik, Olaf Bajrak, Iwona Gientka, Dziyana Shymialevich, Edyta Pawlak",
-          "journal": "Virology",
-          "pubdate": "2026-03-02",
-          "pubdate_utc": "2026-03-02T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41775076/",
-          "abstract_snippet": "The emergence of multidrug-resistant Enterobacter cloacae complex (ECC) strains, particularly Enterobacter hormaechei, underscores the urgent need for alternative antimicrobial strategies. This study reports the isolation and comprehensive characterization of …",
-          "score": 6.479,
-          "theme": "Atlases, compendia, reference resources"
-        },
         {
           "pmid": "41821017",
           "title": "The analysis of the virome associated with Freesia refracta plants with necrotic disorder sheds new light on the phylogenetic relationships in the Konkoviridae and Yueviridae families.",
@@ -343,7 +330,7 @@
           "pubdate_utc": "2026-03-12T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41821017/",
           "abstract_snippet": "The necrotic disorder of freesia, first described in 1970 in Northern Europe, is still affecting freesia cultivation globally. Although several viruses have been listed as possible causal agents, the etiology of the disease is still not clear and is possibly l…",
-          "score": 5.061,
+          "score": 5.052,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -355,7 +342,7 @@
           "pubdate_utc": "2025-12-18T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41478103/",
           "abstract_snippet": "Salmonella Wandsworth, an uncommon serovar, has caused foodborne outbreaks and healthcare associated infections. Its underestimated prevalence and multidrug resistance (MDR) pose global public health risks. Genomic analysis is essential for investigating the e…",
-          "score": 4.799,
+          "score": 4.794,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -367,7 +354,7 @@
           "pubdate_utc": "2026-03-09T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41803086/",
           "abstract_snippet": "The Southern Ocean (SO) plays a key role in regulating global biogeochemical cycles and climate, yet microbial genes sustaining its biological activity remain poorly characterized. We introduce a microbial genes collection from 218 metagenomes sampled during t…",
-          "score": 2.536,
+          "score": 2.527,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -379,7 +366,7 @@
           "pubdate_utc": "2026-03-04T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41780060/",
           "abstract_snippet": "Lassa virus (LASV), a zoonotic, bi-segmented arenavirus endemic to West Africa, causes seasonal epidemics with substantial morbidity and mortality. Increasing frequency of exported cases emphasises the need for near real-time genomic surveillance to support ou…",
-          "score": 2.495,
+          "score": 2.487,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -391,7 +378,19 @@
           "pubdate_utc": "2026-03-04T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41779090/",
           "abstract_snippet": "The genus Vibrio comprises a taxonomically and functionally diverse group of bacteria, including numerous species of relevance to human health, marine ecosystems, and aquaculture. In this study, we performed a comparative pan-genome and core-genome analysis of…",
-          "score": 2.495,
+          "score": 2.487,
+          "theme": "Atlases, compendia, reference resources"
+        },
+        {
+          "pmid": "41786259",
+          "title": "Identification and Antimicrobial Characterization of Galectin-2 in Miichthysmiiuy.",
+          "authors": "Siqi Shan, Wenxin Li, Ziyue Pan, Tianjun Xu, Yuena Sun",
+          "journal": "Developmental and comparative immunology",
+          "pubdate": "2026-03-03",
+          "pubdate_utc": "2026-03-03T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41786259/",
+          "abstract_snippet": "Galectin-2, a member of the galectin family, functions as an immunoregulatory molecule and plays significant roles in inflammatory responses, apoptosis, and the maintenance of immune homeostasis. In this study, we identified and characterized a galectin from a…",
+          "score": 2.479,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -403,18 +402,6 @@
           "pubdate_utc": "2026-03-03T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41776319/",
           "abstract_snippet": "Proteus mirabilis, a Gram-negative bacterium renowned for its distinctive swarming motility, is a major causative agent of catheter-associated urinary tract infections (CAUTIs) and nosocomial complications. While advances in sequencing technologies have genera…",
-          "score": 2.487,
-          "theme": "Atlases, compendia, reference resources"
-        },
-        {
-          "pmid": "41770313",
-          "title": "S-equol producing bacteria: isolation and identification from Albino Wistar rat gut microbiota.",
-          "authors": "Megha Gangwar, Sanaa Ismael Abduljabbar, Jalaluddin Khan, Mohammad Sarwar Alam, Kahksha Ahmed, Sameena Naaz",
-          "journal": "Applied microbiology and biotechnology",
-          "pubdate": "2026-03-02",
-          "pubdate_utc": "2026-03-02T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41770313/",
-          "abstract_snippet": "The metabolism of soy isoflavones by gut microbiota is critical for the bioactivation and bioavailability of these compounds, particularly daidzein, which is further metabolized by gut bacteria to produce S-equol. S-equol, an exclusive gut bacterial metabolite…",
           "score": 2.479,
           "theme": "Atlases, compendia, reference resources"
         },
@@ -427,7 +414,7 @@
           "pubdate_utc": "2026-02-09T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41660984/",
           "abstract_snippet": "Searching publicly archived sequence data for emerging aquatic animal pathogens is a powerful but challenging approach for increasing our understanding of newly identified or poorly characterized organisms. However, searching for target sequences within the se…",
-          "score": 2.321,
+          "score": 2.314,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -439,7 +426,7 @@
           "pubdate_utc": "2026-02-09T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41660834/",
           "abstract_snippet": "",
-          "score": 2.321,
+          "score": 2.314,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -451,7 +438,7 @@
           "pubdate_utc": "2026-01-28T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41603633/",
           "abstract_snippet": "Gut microbial diversity is often studied from the perspective of community composition, but less is known about the genetic heterogeneity within species. The human gut microbiota exhibits substantial individual variation, influenced by numerous factors. This s…",
-          "score": 2.239,
+          "score": 2.233,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -463,7 +450,7 @@
           "pubdate_utc": "2026-01-26T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41586495/",
           "abstract_snippet": "Identifying the genetic relatedness of resistant bacterial pathogens in healthcare settings can help identify undetected transmission events and outbreaks. However, current methods are time- and resource-intensive. We evaluated a rapid neighbor typing method p…",
-          "score": 2.226,
+          "score": 2.22,
           "theme": "Atlases, compendia, reference resources"
         },
         {
@@ -475,7 +462,7 @@
           "pubdate_utc": "2026-01-21T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41562598/",
           "abstract_snippet": "This study aims to elucidate the genomic characteristics of three The emergence of",
-          "score": 2.194,
+          "score": 2.188,
           "theme": "Atlases, compendia, reference resources"
         }
       ]
@@ -483,7 +470,7 @@
     {
       "label": "Metagenomics benchmarking & pipelines",
       "query": "((metagenomics AND (benchmark* OR pipeline OR \"best practices\" OR reproducible OR workflow)) OR ((Kraken2 OR MetaPhlAn OR Bracken OR Centrifuge OR Kaiju) AND (benchmark* OR evaluation))) AND (benchmark* OR workflow OR pipeline OR Snakemake OR Nextflow OR WDL) NOT (case report OR randomized OR psychology)",
-      "count": 11,
+      "count": 9,
       "items": [
         {
           "pmid": "41777069",
@@ -494,7 +481,7 @@
           "pubdate_utc": "2026-03-04T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41777069/",
           "abstract_snippet": "Pathogen-agnostic diagnostics are crucial for the early detection of emerging viruses. Shotgun metagenomic sequencing enables unbiased detection of viral genomes but is frequently constrained by the abundance of host and microbial ribosomal RNA (rRNA), which r…",
-          "score": 6.745,
+          "score": 6.737,
           "theme": "Metagenomics benchmarking & pipelines"
         },
         {
@@ -506,19 +493,7 @@
           "pubdate_utc": "2026-03-03T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41775707/",
           "abstract_snippet": "Microbial safety is fundamental to ensuring water quality, particularly in the Yangtze River Basin, China's most critical drinking water source. Despite its ecological and economic importance, the basin faces significant anthropogenic pressures, including wast…",
-          "score": 6.637,
-          "theme": "Metagenomics benchmarking & pipelines"
-        },
-        {
-          "pmid": "41770016",
-          "title": "HYMET: A Hybrid Metagenomic Pipeline for Accurate and Efficient Taxonomic Classification.",
-          "authors": "Inês Martins, Jorge Miguel Silva, João Rafael Almeida",
-          "journal": "GigaScience",
-          "pubdate": "2026-03-02",
-          "pubdate_utc": "2026-03-02T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41770016/",
-          "abstract_snippet": "Reliable taxonomic classification of metagenomic sequences remains constrained by high mutation rates, fragmented assemblies, and large heterogeneous reference databases. HYMET (Hybrid Metagenomic Tool) was developed to overcome these challenges through a two-…",
-          "score": 5.829,
+          "score": 6.629,
           "theme": "Metagenomics benchmarking & pipelines"
         },
         {
@@ -530,7 +505,7 @@
           "pubdate_utc": "2026-03-10T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41814651/",
           "abstract_snippet": "CRISPR-Cas12a is a compact, RNA-guided nuclease widely deployed in genome editing and molecular diagnostics, yet its broader utility is limited by suboptimal cis-cleavage efficiency and incompletely defined trans-cleavage behavior. To overcome these constraint…",
-          "score": 5.494,
+          "score": 5.486,
           "theme": "Metagenomics benchmarking & pipelines"
         },
         {
@@ -542,7 +517,7 @@
           "pubdate_utc": "2026-03-13T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41830810/",
           "abstract_snippet": "Advancements in metagenomics have been driven by the continuous development of bioinformatic tools, particularly taxonomic classification software, which are central to the accurate characterization of microbial communities. However, establishing direct compar…",
-          "score": 4.319,
+          "score": 4.311,
           "theme": "Metagenomics benchmarking & pipelines"
         },
         {
@@ -554,7 +529,7 @@
           "pubdate_utc": "2026-03-11T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41830759/",
           "abstract_snippet": "Metagenome-resolved metagenomics refers to the recovery of metagenome-assembled genomes from the metagenomic datasets. It is a multi-step and laborious process that requires substantial computational resources and technical expertise. Though various semi-autom…",
-          "score": 4.102,
+          "score": 4.094,
           "theme": "Metagenomics benchmarking & pipelines"
         },
         {
@@ -566,7 +541,7 @@
           "pubdate_utc": "2026-03-13T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41824008/",
           "abstract_snippet": "The etiological diagnosis of peripheral pulmonary infectious lesions (PPILs) is challenging due to the limitations of conventional microbiological methods (CMMs). This study aimed to evaluate the diagnostic value of metagenomic next-generation sequencing (mNGS…",
-          "score": 2.519,
+          "score": 2.511,
           "theme": "Metagenomics benchmarking & pipelines"
         },
         {
@@ -578,7 +553,7 @@
           "pubdate_utc": "2026-03-06T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41789571/",
           "abstract_snippet": "Single-cell multiomic platforms provide a comprehensive snapshot of cellular states and cell types by offering critical insights into the spatiotemporal regulation of biomolecular networks at a systems level, thereby defining the basis of multicellularity. Her…",
-          "score": 2.461,
+          "score": 2.453,
           "theme": "Metagenomics benchmarking & pipelines"
         },
         {
@@ -590,18 +565,6 @@
           "pubdate_utc": "2026-03-03T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41774281/",
           "abstract_snippet": "Next generation sequencing (NGS) remains underutilized in clinical microbiology applications despite providing broad pathogen spectrum detection superior to other molecular methods. This is primarily because of lower sensitivity of metagenomic NGS (mNGS) compa…",
-          "score": 2.437,
-          "theme": "Metagenomics benchmarking & pipelines"
-        },
-        {
-          "pmid": "41590751",
-          "title": "Integrated microfluidic device for rapid and accurate point-of-care detection of high-risk HPV16 and HPV18.",
-          "authors": "Natish Kumar, Monika Kumari, Devtulya Chander, Sandeep Dogra, Asha Chaubey, Ravi Kumar Arun",
-          "journal": "The Analyst",
-          "pubdate": "2026-03-02",
-          "pubdate_utc": "2026-03-02T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41590751/",
-          "abstract_snippet": "Human papillomavirus (HPV), particularly high-risk genotypes HPV16 and HPV18, is a leading cause of cervical cancer, contributing to significant global morbidity and mortality, especially in low-resource settings. Current diagnostic methods, such as PCR and cy…",
           "score": 2.429,
           "theme": "Metagenomics benchmarking & pipelines"
         },
@@ -614,7 +577,7 @@
           "pubdate_utc": "2025-11-12T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41220286/",
           "abstract_snippet": "The gut microbiota has emerged as a key factor in the pathophysiology of inflammatory bowel disease (IBD), providing novel opportunities for diagnostic innovation. Traditional biomarkers, such as C-reactive protein and fecal calprotectin, are widely used in cl…",
-          "score": 1.78,
+          "score": 1.776,
           "theme": "Metagenomics benchmarking & pipelines"
         }
       ]
@@ -633,19 +596,19 @@
           "pubdate_utc": "2026-03-10T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41832731/",
           "abstract_snippet": "Accurate prediction of small interfering RNA (siRNA) silencing efficiency is critical for accelerating nucleic acid drug development. Over the past two decades, the field has transitioned from empirical sequence-derived heuristics to data-driven methods such a…",
-          "score": 7.744,
+          "score": 7.736,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41828669",
-          "title": "Pathogenicity Prediction of Missense Variations in Hereditary Cancer Genes.",
-          "authors": "Cemaliye B Akyerli, Gizel Gerdan, Alper Bülbül, Hilal Keskin-Karakoyun, Şirin K Yüksel, Emel Timucin",
-          "journal": "International journal of molecular sciences",
-          "pubdate": "2026-03-07",
-          "pubdate_utc": "2026-03-07T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41828669/",
-          "abstract_snippet": "HerCanPred, a machine-learning-based pathogenicity classifier specifically optimized for 63 cancer-predisposition genes, was developed to improve the interpretation of missense variants in hereditary cancer syndromes. This model integrates sequence conservatio…",
-          "score": 5.419,
+          "pmid": "41839313",
+          "title": "pKAKA: a protein language model for prioritizing kinase-disrupting variants in diseases.",
+          "authors": "Jun-Teng Li, Haoyang Cheng, Zhuoran Liang, Jiamin Hu, Yi Chu, Ruoxi Cai",
+          "journal": "Journal of genetics and genomics = Yi chuan xue bao",
+          "pubdate": "2026-03-14",
+          "pubdate_utc": "2026-03-14T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41839313/",
+          "abstract_snippet": "Protein kinases are pivotal regulators of cellular signaling, and their genetic variations are frequently implicated in diseases. Although numerous kinase mutations have been identified as drivers of altered activity, with a few successfully targeted therapeut…",
+          "score": 5.469,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -657,19 +620,19 @@
           "pubdate_utc": "2026-03-13T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41832134/",
           "abstract_snippet": "Psoriatic arthritis is a heterogeneous disease where delayed diagnosis and variable treatment responses remain significant challenges. This review addresses how interconnected metabolic, immunological, and genetic pathways provide opportunities for precision m…",
-          "score": 4.969,
+          "score": 4.961,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41825244",
-          "title": "Magnetic resonance imaging study of major depressive disorder: a 28-year scientometric and visual analysis.",
-          "authors": "Zhouyang Xu, Jiang Wu, Min Wang, Mengjun Dong, Yuanzhou He",
-          "journal": "Psychiatry research. Neuroimaging",
-          "pubdate": "2026-03-08",
-          "pubdate_utc": "2026-03-08T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41825244/",
-          "abstract_snippet": "Neuroimaging, particularly magnetic resonance imaging (MRI), has become a cornerstone in elucidating the neural underpinnings of Major Depressive Disorder (MDD). As the volume of related literature grows rapidly, a systematic, quantitative overview of the fiel…",
-          "score": 4.927,
+          "pmid": "41839460",
+          "title": "Sales forecast of new energy vehicles in China based on multi-source information fusion and link prediction.",
+          "authors": "Shunqinag Ye, Xiaoman Zhao, Peng-Fei Dai, Duc Khuong Nguyen, Jinpei Liu",
+          "journal": "Journal of environmental management",
+          "pubdate": "2026-03-15",
+          "pubdate_utc": "2026-03-15T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41839460/",
+          "abstract_snippet": "This study develops an integrated forecasting framework that leverages multi-source information fusion to improve predictions of new energy vehicle (NEV) sales in China. The dataset incorporates historical sales records, key influencing factors, and unstructur…",
+          "score": 4.278,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -681,7 +644,19 @@
           "pubdate_utc": "2026-03-12T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41831678/",
           "abstract_snippet": "Acute pulmonary embolism (APE) is characterized by high incidence and mortality, along with non-specific clinical manifestations. Its common symptoms such as dyspnea, chest pain, cough, and hemoptysis can also appear in other diseases, frequently resulting in …",
-          "score": 4.261,
+          "score": 4.252,
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "41836165",
+          "title": "A novel and efficient feature extraction algorithm using kmer-derived mutation signal.",
+          "authors": "JingJing Zhang, XinGong Zhang, Jianwen Huang, RunBin Tang",
+          "journal": "PeerJ",
+          "pubdate": "2026-03-11",
+          "pubdate_utc": "2026-03-11T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41836165/",
+          "abstract_snippet": "Effective algorithms for extracting genomic features are crucial for downstream bioinformatics research. Although kmer-based descriptive statistical features (frequency and position) offer a unique perspective for genomic feature extraction, their biological s…",
+          "score": 4.244,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -693,31 +668,55 @@
           "pubdate_utc": "2026-03-11T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41831330/",
           "abstract_snippet": "Venous thromboembolism (VTE) is a complex multifactorial disorder in which the contribution of genetic and non-genetic risk factors is well recognized, yet standard thrombophilia testing is unable to explain a substantial proportion of cases. To explore additi…",
-          "score": 4.252,
+          "score": 4.244,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41824492",
-          "title": "Toward AI foundation models for epidemics: Promise, challenges, and paths forward.",
-          "authors": "Max S Y Lau, C Jessica E Metcalf, Zewen Liu, Bryan T Grenfell, Wei Jin",
+          "pmid": "41837859",
+          "title": "Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.",
+          "authors": "Sidun Zhang, Junlong He, Xuguo Duan, Zimin Liu, Zhouge Lan, Qiong Wang",
+          "journal": "Journal of agricultural and food chemistry",
+          "pubdate": "2026-03-16",
+          "pubdate_utc": "2026-03-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41837859/",
+          "abstract_snippet": "High-throughput sequencing has generated vast genomic repositories that remain under-annotated, hampering enzyme discovery. We present an integrated pipeline that (i) builds a high-resolution, cross-kingdom phylogenetic database, (ii) mines candidates via mult…",
+          "score": 3.686,
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "41838957",
+          "title": "Molecular Dynamics Study on Deep Learning Potential of the (LiF-YF",
+          "authors": "Xu Wang, Fei Liu, Kailei Sun",
+          "journal": "The journal of physical chemistry. B",
+          "pubdate": "2026-03-16",
+          "pubdate_utc": "2026-03-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41838957/",
+          "abstract_snippet": "In this study, a machine learning workflow via the Deep Potential Generator (DPGEN) was then used to train a molecular dynamics potential function for the (LiF-YF",
+          "score": 2.486,
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "41838918",
+          "title": "Identifying key convection-sensitive oceanic regions to weaken the ENSO spring predictability barrier.",
+          "authors": "Zepeng Mei, Shuheng Lin, Keyan Fang, Wanru Tang, Feifei Zhou, Fei Liu",
           "journal": "Proceedings of the National Academy of Sciences of the United States of America",
-          "pubdate": "2026-03-13",
-          "pubdate_utc": "2026-03-13T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41824492/",
-          "abstract_snippet": "Foundation models-large AI systems pretrained on broad, heterogeneous data-are transforming scientific discovery. These models (e.g., GPT, GenCast, AlphaFold) excel at learning generalizable representations and adapting to new tasks with limited data. Yet, epi…",
-          "score": 3.669,
+          "pubdate": "2026-03-16",
+          "pubdate_utc": "2026-03-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41838918/",
+          "abstract_snippet": "The El Niño-Southern Oscillation (ENSO) exhibits its weakest predictability during boreal spring, a phenomenon known as the Spring Predictability Barrier (SPB). The SPB arises from weak air-sea coupling that limits the growth and persistence of the ENSO signal…",
+          "score": 2.486,
           "theme": "ML for evolution & pathogens"
         },
         {
-          "pmid": "41828260",
-          "title": "Study on a Process Parameter-Driven Deep Learning Prediction Model for Multi-Physical Fields in Flange Shaft Welding.",
-          "authors": "Chaolong Yang, Zhiqiang Xu, Feiting Shi, Ketong Liu, Peng Cao",
-          "journal": "Materials (Basel, Switzerland)",
-          "pubdate": "2026-03-04",
-          "pubdate_utc": "2026-03-04T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41828260/",
-          "abstract_snippet": "Large flange shafts are the core load-bearing and connecting components of high-end equipment, and their welding multi-physical fields directly affect the quality and service safety of the components. Traditional experiments and finite element methods suffer f…",
-          "score": 3.595,
+          "pmid": "41838908",
+          "title": "Biosphere expansion drives Earth's secular oxygenation while tectonics modulate oxygen variability revealed by machine learning.",
+          "authors": "Zhen-Jie Zhang, Dong-Jie Tang, Qiu-Ming Cheng",
+          "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+          "pubdate": "2026-03-16",
+          "pubdate_utc": "2026-03-16T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41838908/",
+          "abstract_snippet": "The rise of atmospheric oxygen fundamentally transformed Earth's surface environment and enabled the evolution of complex life. However, the processes driving long-term oxygen fluctuations remain poorly resolved, partly from limited proxy resolution and tempor…",
+          "score": 2.486,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -729,7 +728,19 @@
           "pubdate_utc": "2026-03-16T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41834612/",
           "abstract_snippet": "Hydroxyapatite (HAp) nucleation requires incorporation of hydroxyl (OH), yet how hydroxylation emerges, and OH groups become stabilized during Ca-P assembly, particularly under nanoconfinement and with organic molecules, remains unclear. Here, we employ machin…",
-          "score": 2.495,
+          "score": 2.486,
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "41837361",
+          "title": "Ecosystem services in the Yangtze River Economic Belt: Spatiotemporal characteristics, trade-offs/synergies, and driving factors.",
+          "authors": "Zhihao Tao, Youzhi An, Peng Zhao, Huili Bao",
+          "journal": "Integrated environmental assessment and management",
+          "pubdate": "2026-03-15",
+          "pubdate_utc": "2026-03-15T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41837361/",
+          "abstract_snippet": "Ecosystem services (ES) play a vital role in socioeconomic development. Existing research has primarily focused on single-service assessments and linear relationships, overlooking often neglecting non-linear interactions, threshold effects, and spatial heterog…",
+          "score": 2.478,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -741,7 +752,7 @@
           "pubdate_utc": "2026-03-14T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41830988/",
           "abstract_snippet": "Desiccation cracks depend on the type of soil, with each type exhibiting a distinct pattern. In this study, we examined the evolution of the crack patterns in different soil types as well as with changes within the same soil type. Physico-chemical studies of t…",
-          "score": 2.478,
+          "score": 2.469,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -753,7 +764,19 @@
           "pubdate_utc": "2026-03-14T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41830638/",
           "abstract_snippet": "Hybridization of common motifs from known antimicrobial peptides (AMPs) is a promising strategy for designing a new class of antimicrobial agents with improved activity. Herein, the machine learning-generated peptide sequence IIKLLGVLAKFVLGQ-NH",
-          "score": 2.478,
+          "score": 2.469,
+          "theme": "ML for evolution & pathogens"
+        },
+        {
+          "pmid": "41836624",
+          "title": "Artificial intelligence in telemedicine: Topic modelling and network analysis of patents (1992-2024).",
+          "authors": "Ruyi Xiao, Shiya Ma, An Lu, Weihong Shi, Jin Zhang",
+          "journal": "Digital health",
+          "pubdate": "2026-03-13",
+          "pubdate_utc": "2026-03-13T00:00:00+00:00",
+          "link": "https://pubmed.ncbi.nlm.nih.gov/41836624/",
+          "abstract_snippet": "Artificial intelligence (AI) is transforming telemedicine within the broader digital-health ecosystem, yet systematic evidence on its technological hotspots and long-run trajectories remains limited. To map the technological evolution of AI in telemedicine and…",
+          "score": 2.461,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -765,7 +788,7 @@
           "pubdate_utc": "2026-03-13T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41833626/",
           "abstract_snippet": "Neurodegenerative diseases (NDs), including Alzheimer's, Parkinson's, Huntington's, amyotrophic lateral sclerosis, and multiple sclerosis, share a common pathogenic signature: disrupted proteostasis driven by impaired autophagy and maladaptive exosome dynamics…",
-          "score": 2.469,
+          "score": 2.461,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -777,19 +800,7 @@
           "pubdate_utc": "2026-03-13T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41832954/",
           "abstract_snippet": "Cancer is an evolutionary process characterized by profound intratumor heterogeneity (ITH), which can be quantified using in silico estimates of cancer cell fractions (CCFs) of tumor-specific somatic mutations. We demonstrate a data-driven approach based on CC…",
-          "score": 2.469,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41824424",
-          "title": "An interpretable vibration-enhanced BRB model for rolling bearing fault diagnosis.",
-          "authors": "Ziyu Fan, Kangle Li, Hailong Zhu, Cuiping Yang, Wei He",
-          "journal": "PloS one",
-          "pubdate": "2026-03-13",
-          "pubdate_utc": "2026-03-13T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41824424/",
-          "abstract_snippet": "The operational condition of rolling bearings is essential to the reliability of industrial machinery, making fault diagnosis a critical research topic. Although deep learning has gained widespread attention in this domain, its black-box character and reliance…",
-          "score": 2.469,
+          "score": 2.461,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -801,7 +812,7 @@
           "pubdate_utc": "2026-03-12T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41831655/",
           "abstract_snippet": "Beijing, a large urban center with complex food supply chains, faces increasing challenges from foodborne Campylobacter infections. However, local data on antimicrobial resistance, source attribution, and pathogenic characteristics remain limited. This study a…",
-          "score": 2.461,
+          "score": 2.452,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -813,19 +824,7 @@
           "pubdate_utc": "2026-03-11T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41833204/",
           "abstract_snippet": "Human metapneumovirus (hMPV) is a serious global health threat because it causes human respiratory diseases in people of all ages. The complicated dynamics of this virus transmission exist in complications of waning immunity and reinfection that are extremely …",
-          "score": 2.452,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41825544",
-          "title": "Thermophilic keystone taxa drive humification in coal gangue co-composting via shikimate-pathway carbon flux.",
-          "authors": "Dian Li, Sanghoon Kim, Tian Tang, Shu Wu, Hongye Ma, Yangsheng Liu",
-          "journal": "Environmental research",
-          "pubdate": "2026-03-11",
-          "pubdate_utc": "2026-03-11T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41825544/",
-          "abstract_snippet": "Co-composting of coal gangue and organic solid waste is an effective resource utilization method, but systematic understanding of the humification process in co-composting systems remains limited. The study systematically investigated the evolution of humic su…",
-          "score": 2.452,
+          "score": 2.444,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -837,7 +836,7 @@
           "pubdate_utc": "2026-03-08T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41830269/",
           "abstract_snippet": "As an important indicator for measuring the carbon sequestration capacity of ecosystems，carbon storage is of great significance for alleviating global climate change. By taking advantage of machine learning and ecosystem service models，an integrated analysis f…",
-          "score": 2.427,
+          "score": 2.419,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -849,19 +848,7 @@
           "pubdate_utc": "2026-03-08T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41830265/",
           "abstract_snippet": "Understanding the spatiotemporal evolution and driving factors of ecosystem service value（ESV）is critical for promoting regional ecological civilization and sustainable development. Taking the Chengdu-Chongqing Economic Circle as the study area，we systematical…",
-          "score": 2.427,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41828709",
-          "title": "Integrative Analysis of lncRNA-RBP (RNA-Binding Protein) Regulatory Networks Reveals Molecular Targets for Enhancing",
-          "authors": "Ramya Parakkunnel, Bhojaraja Naik Keshava, Manjanagouda Siddanagouda Sannagoudar, Samudrala Prashant Jeevan Kumar, Kuldip Jayaswall, Aravindan Sundaram",
-          "journal": "International journal of molecular sciences",
-          "pubdate": "2026-03-08",
-          "pubdate_utc": "2026-03-08T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41828709/",
-          "abstract_snippet": "",
-          "score": 2.427,
+          "score": 2.419,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -873,19 +860,7 @@
           "pubdate_utc": "2026-03-07T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41829656/",
           "abstract_snippet": "Response latency and sensor noise are universal challenges in closed-loop control systems. In the context of semi-active suspensions, these issues also exist and manifest as critical bottlenecks. Due to the highly transient nature of road shocks, the inherent …",
-          "score": 2.419,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41828875",
-          "title": "The Evolving Landscape of NMR Structural Elucidation.",
-          "authors": "Josep Saurí",
-          "journal": "Molecules (Basel, Switzerland)",
-          "pubdate": "2026-03-07",
-          "pubdate_utc": "2026-03-07T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41828875/",
-          "abstract_snippet": "Nuclear Magnetic Resonance (NMR) spectroscopy has long been a cornerstone in the structural elucidation of molecules, offering unique insights into atomic-level connectivity, conformation, and dynamics. Over the past decades, methodological and technological a…",
-          "score": 2.419,
+          "score": 2.411,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -897,19 +872,7 @@
           "pubdate_utc": "2026-03-06T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41829635/",
           "abstract_snippet": "Distributed fiber optic sensing (DFOS) has emerged as a critical technology for structural health monitoring of large-scale infrastructure, offering unique advantages in terms of coverage and environmental adaptability. This review presents a comprehensive ana…",
-          "score": 2.411,
-          "theme": "ML for evolution & pathogens"
-        },
-        {
-          "pmid": "41828653",
-          "title": "AI-Assisted Computed Structure Models for Pre-Ubiquitylation Complexes Assembled by Respiratory Syncytial Viral Suppressors of Cellular Interferon Response.",
-          "authors": "Sailen Barik",
-          "journal": "International journal of molecular sciences",
-          "pubdate": "2026-03-06",
-          "pubdate_utc": "2026-03-06T00:00:00+00:00",
-          "link": "https://pubmed.ncbi.nlm.nih.gov/41828653/",
-          "abstract_snippet": "Multiple viruses suppress the antiviral defense system of the host for optimal growth and pathogenesis by co-opting the ubiquitin-mediated proteasomal system (UPS) that promotes the degradation of cellular substrates belonging to the interferon pathway. In the",
-          "score": 2.411,
+          "score": 2.403,
           "theme": "ML for evolution & pathogens"
         },
         {
@@ -921,7 +884,7 @@
           "pubdate_utc": "2026-03-04T00:00:00+00:00",
           "link": "https://pubmed.ncbi.nlm.nih.gov/41829581/",
           "abstract_snippet": "Forest fires are a major concern due to their significant impact on the environment, economy, and wildlife habitats. Efficient early detection systems can significantly mitigate their devastating effects. This paper provides a comprehensive review of forest fi…",
-          "score": 2.395,
+          "score": 2.387,
           "theme": "ML for evolution & pathogens"
         }
       ]
